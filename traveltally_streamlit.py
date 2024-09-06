@@ -58,7 +58,7 @@ def compare_destinations(dest1_data, dest2_data, budget, weather_preference):
 
 def main():
     """Main function to run the Streamlit app."""
-    st.title("Travel Destination Comparison")
+    st.title("AY's Travel Tally (Compare travel destinations)")
 
     # Get user preferences
     budget = st.number_input("Enter your budget in SGD:", min_value=0.0, format="%.2f")
